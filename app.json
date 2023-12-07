@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "nft-wallet-app",
+    "slug": "nft-wallet-app-ui-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reghinx.nftwalletappuidemo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87c95a1b-022d-40fe-bfaa-aac744c53b4c"
+      }
+    }
+  }
+}

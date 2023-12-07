@@ -1,0 +1,50 @@
+{
+  "name": "nftapp_uidemo",
+  "version": "1.0.0",
+  "author": "Inertia (Odelola) hello@odelola@gmail.com",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.14",
+    "expo": "~46.0.0",
+    "expo-blur": "11.2.0",
+    "expo-linear-gradient": "^12.5.0",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.69.6",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-svg": "12.1.1",
+    "styled-components": "5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "react-native-svg-transformer": "^1.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Odelola/nftWalletApp_uidemo"
+  },
+  "keywords": [
+    "react-native",
+    "ui",
+    "expo",
+    "expo-cli",
+    "figma",
+    "nft-app",
+    "nft wallet app",
+    "react native styled components"
+  ],
+  "bugs": {
+    "url": "https://github.com/Odelola/nftWalletApp_uidemo/issues"
+  },
+  "homepage": "https://github.com/Odelola/nftWalletApp_uidemo"
+}
